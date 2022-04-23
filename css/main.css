@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background: url(../img/background.jpg) no-repeat center center/cover;
+}
+
+#login-form {
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.134);
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+    
+}
+
+#login-form .m-b{
+    margin-bottom: 1.5rem;
+}
+#login-form h1{
+    text-align: center;
+    color: #fff;
+    padding: 0px 0px 2rem;
+}
+#login-form label{
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+#login-form input{
+    width: 100%;
+    outline: none;
+    padding: 0.4rem;
+    background-color: #333;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+#login-form input::placeholder{
+    padding: 0.2rem;
+}
+#login-form button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 0;
+
+}
+#login-form .loginBtn{
+    width: 100%;
+}
+
+#login-form .socialBtn{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-column-gap: 0.4rem;
+}
+#login-form .socialBtn button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#login-form .socialBtn i{
+    color: #000;
+    font-size: 17px;
+    margin-right: 5px;
+}
